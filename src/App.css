@@ -1,0 +1,176 @@
+body {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0 50px;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    padding: 0;
+  }
+}
+
+/* Email section */
+/* Email Container */
+.email_container {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.email_container .email_title {
+  background-color: #f8f8f8;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  border-bottom: 1px solid #ccc;
+}
+
+.email_container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.email_container th,
+.email_container td {
+  font-size: 12px;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.email_container th {
+  background-color: #f0f0f0;
+  width: 25%;
+}
+
+.email_container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.email_container a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile screens */
+@media only screen and (max-width: 480px) {
+  .email_container {
+    padding: 10px;
+  }
+
+  .email_container .email_title {
+    font-size: 12px;
+  }
+}
+
+/* View Details  */
+
+.Detail_container {
+  width: 60%;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px;
+  background-color: #fff;
+}
+
+th,
+td {
+  font-size: 11px;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  font-size: 11px;
+  background-color: #f0f0f0;
+  width: 30%;
+}
+
+.note,
+.disclaimer {
+  font-size: 11px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 480px) {
+  .Detail_container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+/* Skills section */
+h2 {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+  background-color: #fff;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 480px) {
+  h2 {
+    font-size: 10px;
+  }
+  table {
+    margin: 4px;
+  }
+  th,
+  td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+    font-size: 7px;
+  }
+  p {
+    font-size: 6px;
+  }
+}
+
+/* Exam Form section */
+.exam_form {
+  display: flex;
+  justify-content: center;
+}
+
+.exam_form p {
+  width: max-content;
+  padding: 5px;
+  color: #fff;
+  background-color: gray;
+}

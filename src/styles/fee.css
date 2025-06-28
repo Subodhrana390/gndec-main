@@ -1,0 +1,108 @@
+.fee_container {
+  width: 80%;
+  margin: 30px auto;
+  border: 1px solid #ccc;
+}
+
+.fee_title {
+  display: inline-block;
+  padding: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #ccc;
+}
+
+.form-group:last-child {
+  border-bottom: 1px solid #ccc;
+}
+.form-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding-block: 5px;
+  border-top: 1px solid #ccc;
+}
+
+.form_label {
+  font-size: 14px;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  font-weight: bold;
+}
+.form_input {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form_input p {
+  padding-block: 5px;
+  font-size: 12px;
+}
+
+.form_input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.form_input select {
+font-size: 12px;
+  width: fit-content;
+  padding: 2px;
+}
+
+.terms_condition {
+  font-size: 12px;
+  padding: 3px;
+  border-bottom: 1px solid #ccc;
+}
+.form_button {
+  width: 80%;
+  margin: 5px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_button button {
+  background-color: #e85a55;
+  color: #fff;
+  font-size: 11px;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+@media only screen and (max-Width:480px){
+  .form_label {
+    font-size: 8px;
+  }
+
+  .form_input select{
+    font-size: 8px;
+  }
+  .form_input {
+    font-size: 8px;
+  }
+
+  .form_input select option{
+    font-size: 7px;
+  }
+
+  .form_input p{
+    font-size: 8px;
+  }
+  .terms_condition {
+    font-size: 7px;
+    padding: 3px;
+    border-bottom: 1px solid #ccc;
+  }
+}

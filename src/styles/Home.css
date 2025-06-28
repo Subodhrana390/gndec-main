@@ -1,0 +1,211 @@
+/* Global styles */
+
+#Logo {
+  display:inline-block;
+  width: 100%;
+  height: 80px;
+}
+
+#Logo img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Home section */
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  background-color: #e8e8e8;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px; /* Adjusted for smaller screens */
+}
+
+.home {
+  text-decoration: none;
+  font-size: medium;
+  color: black;
+}
+
+.home,
+.control-panel,
+.pay-fee,
+.obe,
+.student-id {
+  border-radius: 5px;
+  margin: 5px 0; /* Added margin for better spacing on smaller screens */
+}
+
+/* Dropdown Menu */
+
+.dropdown {
+  position: relative;
+}
+
+.dropbtn {
+  background-color: #f7f7f7; /* Light grey */
+  color: black;
+  padding: 10px 16px;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropbtn i {
+  margin-right: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  background-color: #c94039; /* Red */
+  border: 1px solid #9b302c;
+  font-size: 12px;
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: block;
+  margin: 15px 0;
+}
+
+.dropdown-content a i {
+  margin-right: 5px;
+}
+
+.dropdown-content a:hover {
+  background-color: #bd473f;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #d3cccc; /* Light red */
+}
+
+.pay_button {
+  text-decoration: none;
+  color: black;
+  background-color: #f7f7f7;
+  padding: 10px;
+  font-size: 11px;
+  border-radius: 4px;
+}
+
+#logout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  background-color: #d9534f;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+/* Responsive styles */
+
+/* Tablet and smaller screens */
+@media only screen and (max-width: 768px) {
+  #Logo {
+    height: 80px;
+  }
+  .container {
+    margin-top: 0;
+  }
+  .header {
+    padding: 5px 5px;
+  }
+  .home {
+    font-size: small;
+    padding: 5px;
+  }
+  .dropdown-content {
+    min-width: 120px;
+  }
+  .dropdown-content a {
+    font-size: 10px;
+    padding: 2px 5px;
+  }
+}
+
+/* Mobile screens */
+@media only screen and (max-width: 480px) {
+  #Logo {
+    height: 50px;
+  }
+  .container {
+    margin-top: 0px;
+  }
+
+  .header {
+    width: 100%;
+    background-color: #e8e8e8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px; /* Adjusted for smaller screens */
+  }
+
+  .dropbtn {
+    background-color: #f7f7f7; /* Light grey */
+    color: black;
+    padding: 5px 5px;
+    font-size: 6px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .dropbtn i {
+    margin-right: 5px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 2px;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    padding: 2px;
+    font-size: 5px;
+    margin: 2px;
+  }
+
+  .home {
+    font-size: 8px;
+  }
+  .pay_button {
+    padding: 2px;
+    font-size: 6px;
+  }
+  #logout {
+    font-size: 5px;
+    padding: 2px;
+  }
+}

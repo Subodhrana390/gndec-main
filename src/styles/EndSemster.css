@@ -1,0 +1,67 @@
+h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  font-size: 11px;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.submit_form {
+  display: flex;
+  justify-content: center;
+  padding-block: 10px;
+}
+
+.submit_form p {
+  width: fit-content;
+  padding: 8px;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: green;
+}
+
+/* Add media queries for phone responsiveness */
+
+/* For screens with a maximum width of 480px ( typical phone screen size) */
+@media only screen and (ma8x-width: 480px) {
+  table {
+    font-size: 10px; /* reduce font size for smaller screens */
+  }
+  td,
+  th {
+    padding: 5px; /* reduce padding for smaller screens */
+  }
+  .submit_form p {
+    padding: 3px; /* reduce padding for smaller screens */
+  }
+}
+
+/* For screens with a maximum width of 320px ( smaller phone screen size) */
+@media only screen and (max-width: 320px) {
+  table {
+    font-size: 9px; /* reduce font size even further for smaller screens */
+  }
+  td,
+  th {
+    padding: 3px; /* reduce padding even further for smaller screens */
+  }
+  .submit_form p {
+    padding: 2px; /* reduce padding even further for smaller screens */
+  }
+}

@@ -1,0 +1,61 @@
+table {
+  max-width: 100%;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+td {
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+td:last-child {
+  border-right: 1px solid #ddd;
+}
+
+th,
+td {
+  width: fit-content;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-size: 11px;
+}
+
+tr {
+  font-size: 11px;
+}
+
+.result_container {
+  margin: 40px auto;
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.note {
+  font-style: italic;
+  padding: 10px 30px;
+}
+
+.disclaimer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+@media only Screen and(max-width:480px) {
+  .result_container {
+    margin: 40px 0;
+    width: 100%;
+  }
+}

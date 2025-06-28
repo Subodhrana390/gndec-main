@@ -1,0 +1,28 @@
+.admit_Container{
+    margin-block: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.download{
+    background-color: #468847;
+    color: white;
+    font-size: 14px;
+    padding: 3px;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+}
+
+.generate{
+    background-color: #dc504b;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+}
