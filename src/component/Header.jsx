@@ -45,9 +45,6 @@ const Header = () => {
               <a href="/semDec">
                 <i class="fa-solid fa-file"></i>Result: ESE Dec, 2024
               </a>
-              <a href="/semMay">
-                <i class="fa-solid fa-file"></i>Result: ESE May, 2025
-              </a>
 
               {/* <a href="/semNov">
                 <i class="fa-solid fa-file"></i>Result: ESE Nov, 2023
@@ -61,6 +58,10 @@ const Header = () => {
             </div>
           </div>
         </div>
+
+        <a href="/semMay" class="pay_button">
+          <i class="fa-solid fa-file"></i> 2nd Year Result
+        </a>
 
         <a href="/payFee" class="pay_button">
           <i class="fa-solid fa-file"></i> Pay Semester Fee (July - Dec, 2025)
