@@ -31,7 +31,7 @@ const subjects = [
     resultType: "Regular",
     internal: 31,
     internalMax: 40,
-    external: 35,
+    external: 31,
     externalMax: 60,
   },
   {
@@ -43,7 +43,7 @@ const subjects = [
     resultType: "Regular",
     internal: 35,
     internalMax: 40,
-    external: 34,
+    external: 43,
     externalMax: 60,
   },
   {
