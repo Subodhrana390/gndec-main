@@ -13,6 +13,7 @@ const subjects = [
   {
     semester: 3,
     subjectCode: "EXIT-101",
+    mCode: 16024,
     paperId: "16024",
     subjectTitle: "Basic Electronics and Application in Civil Engineering",
     theoryPractical: "T",
@@ -25,6 +26,7 @@ const subjects = [
   {
     semester: 3,
     subjectCode: "HSMCE-101",
+    mCode: 16025,
     paperId: "16025",
     subjectTitle: "Civil Engineering Introduction, Societal and Global Impact",
     theoryPractical: "T",
@@ -37,6 +39,7 @@ const subjects = [
   {
     semester: 3,
     subjectCode: "PCCE-101",
+    mCode: 16020,
     paperId: "16020",
     subjectTitle: "Surveying & Geomatics",
     theoryPractical: "T",
@@ -49,6 +52,7 @@ const subjects = [
   {
     semester: 3,
     subjectCode: "POCE-102",
+    mCode: 16021,
     paperId: "16021",
     subjectTitle: "Solid Mechanics",
     theoryPractical: "T",
@@ -62,6 +66,7 @@ const subjects = [
     semester: 3,
     subjectCode: "PCCE-103",
     paperId: "16022",
+    mCode: 16022,
     subjectTitle: "Fluid Mechanics",
     theoryPractical: "T",
     resultType: "Regular",
@@ -74,6 +79,7 @@ const subjects = [
     semester: 3,
     subjectCode: "BEGIN-104",
     paperId: "16023",
+    mCode: 16023,
     subjectTitle: "Disaster Preparedness and Planning",
     theoryPractical: "T",
     resultType: "Regular",
@@ -183,7 +189,9 @@ const SemDecember = () => {
             <tr key={index}>
               <td>{subj.semester}</td>
               <td>{subj.subjectCode}</td>
-              <td>{subj.paperId}</td>
+              <td>
+                {subj.paperId} / {subj.mCode}
+              </td>
               <td>{subj.subjectTitle}</td>
               <td>{subj.theoryPractical}</td>
               <td>{subj.resultType}</td>
