@@ -75,10 +75,6 @@ const Header = () => {
           </div>
         </div>
 
-        <a href="/payFee" class="pay_button">
-          <i class="fa-solid fa-file"></i> Pay Semester Fee (July - Dec, 2025)
-        </a>
-
         <div class="obe">
           <div class="dropdown">
             <button class="dropbtn">
