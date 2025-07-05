@@ -40,7 +40,7 @@ function App() {
             }
           />
           <Route path="/email" element={<Email />} />
-          <Route path="/payFee" element={<Payfee />} />
+          <Route path="/payFee" element={<Payfee alreadyPaid={true} />} />
           <Route path="/generateAdmitCard" element={<GenerateAdmitCard />} />
           <Route path="/viewDetails" element={<ViewDetails />} />
           <Route path="/skill" element={<Skill />} />
